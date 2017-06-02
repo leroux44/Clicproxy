@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding:0;
+    font-size:100%
+    background:
+}
+
+#formulaire {
+    background: #E5E5E5;
+    padding:1%;
+
+}
+
+#formulaire h1 {
+    font-size:1.8em;
+    color:#60bf2d;
+    margin-bottom:1em
+}
+
+.bloc {
+    margin-bottom:.8em
+}
+.bloc label {
+    display:block;
+    font-weight:bold;
+    padding:.1em;
+}
+
+.bloc input, .bloc select {
+    display:block;
+    float:left;
+    margin-right:1em;
+    padding:.1em;
+    border:1px solid #ccc;
+}
+
+.bloc input {
+    width:250px;
+}
+.bloc select {
+    width:72px;
+    text-align:center;
+}
+
+#resultat {
+    background:#fafafa;
+    padding:1em
+}
+#resultat h2 {
+    font-size:1.3em;
+    color:#60bf2d;
+    margin-bottom:.8em
+}
+
+#bouton input {
+    padding:.2em .5em;
+    font-weight:bold;
+    border:1px solid #ccc;
+    background:#fff;
+    color:#004C54
+}
+
+#bouton input:hover {
+    background:#004C54;
+    color:#fff
+}
